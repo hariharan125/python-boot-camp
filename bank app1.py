@@ -18,13 +18,9 @@ class Bank_Account:
   
     def display(self): 
         print("\n Net Available Balance=",self.balance) 
-  
-# Driver code 
-   
-# creating an object of class 
+        
 s = Bank_Account() 
-   
-# Calling functions with that class object 
+ 
 s.deposit() 
 s.withdraw() 
 s.display() 
